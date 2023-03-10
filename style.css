@@ -1,0 +1,120 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header,
+.section-1,
+.section-2{
+    background-color:  hsl(217, 28%, 15%)
+}
+
+.get-started-btn{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient( to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%)) ;
+    font-weight: 800;
+}
+.curvy-bg{
+    background-image: url(/images/bg-curvy-desktop.svg);
+    height: 300px;
+
+}
+.section-3,.section-4,.section-5{
+    background:hsl(218, 28%, 13%) ;
+}
+.profile{
+    background:hsl(219, 30%, 18%) ;
+    border-radius: 5px;
+   
+}
+.profile-img{
+    width: 30px;
+    border-radius: 50%;
+}
+.profile-container {
+    position: relative;
+}
+.profile-container h6 {
+    position: absolute;
+    top: 0;    
+    left: 40px;
+}
+.profile-container p{
+    font-size: .7rem;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.section-5{
+    position: relative;
+    z-index: 9;
+    min-height: 600px;
+}
+.quotes{
+    position: absolute;
+    left: 65px;
+    top:12px;
+    z-index: -9;
+}
+.section-6{
+    max-width:60%;
+  background:hsl(219, 30%, 18%)
+}
+.email{
+    width: 60%;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+}
+.email-btn{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient( to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%)) ;
+    font-weight: 800;
+}
+footer{
+    background: hsl(216, 53%, 9%);
+   
+}
+ul li{
+  margin-bottom: 12px;
+}
+.brands{
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding: .5rem;
+}
+.this{
+    position: relative;
+    top:-150px;
+    z-index:9;
+}
+.link{
+color:  hsl(176, 68%, 64%);
+}
+@media (width < 1000px){
+  .section-5{
+   min-height: 1000px;
+  }
+  .section-6{
+    max-width: 90%;
+  }
+  .quotes{
+    left: 90px; 
+    }
+}
+@media (width<650px){
+
+    .section-5{
+        min-height: 1200px;
+       }
+}
