@@ -117,4 +117,7 @@ color:  hsl(176, 68%, 64%);
     .section-5{
         min-height: 1200px;
        }
+    .email{
+        width: 100%;
+    }
 }
